@@ -18,11 +18,6 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding=ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
-        binding.showBtn.setOnClickListener {
-            var msg :String =binding.userinput.text.toString()
 
-            Toast.makeText(this@MainActivity,msg, Toast.LENGTH_LONG).show()
-            binding.image1.setImageResource(R.drawable.wallpaper)
-        }
     }
     }
