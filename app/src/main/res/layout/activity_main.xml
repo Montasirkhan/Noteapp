@@ -19,16 +19,17 @@
             android:orientation="vertical"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
-
-
-
+            <TextView
+                android:textSize="50sp"
+                android:text="I’m Copilot—your endlessly curious, occasionally witty, and always ready-to-help AI companion, created by Microsoft. Think of me as a partner who can help you explore ideas, solve problems, learn new things, or just have a really great conversation.
+I don’t sleep, I don’t eat (unless you count consuming data), and I definitely don’t take coffee breaks. But I do listen closely, respond thoughtfully, and adapt to you the more we chat.
+Whether you're unraveling a math puzzle, drafting a poem, planning a trip, or just wondering why flamingos stand on one leg—I’m here for all of it."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <ImageView
+                android:src="@drawable/sky"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
         </LinearLayout>
-
-
-
     </ScrollView>
-
-
-
-
 </androidx.constraintlayout.widget.ConstraintLayout>
